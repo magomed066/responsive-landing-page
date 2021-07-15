@@ -1,0 +1,33 @@
+.service {
+    padding-top: 190px;
+    &-wrapp {
+
+    }
+
+    &-header {
+        text-align: center;
+        &__title {
+            margin-bottom: 35px;
+            font-weight: bold;
+            font-size: 36px;
+
+            &::after {
+                content: '';
+                width: 56px;
+                height: 2px;
+                background-color: #000;
+                display: block;
+                margin: 0 auto;
+                margin-top: 26px;
+            }
+        }
+
+        &__sub {
+            color: #7D7987;
+            max-width: 952px;
+            margin: 0 auto;
+            line-height: 30px;
+            font-size: 18px;
+        }
+    }
+}
