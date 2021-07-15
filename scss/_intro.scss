@@ -1,0 +1,41 @@
+.intro {
+    &-wrapp {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-info {
+        &__title {
+            max-width: 427px;
+            font-weight: bold;
+            font-size: 48px;
+            margin-bottom: 25px;
+        }
+
+        &__sub {
+            font-weight: 300;
+            font-size: 21px;
+            line-height: 32px;
+            color: #7D7987;
+            margin-bottom: 48px;
+        }
+
+        &__btn {
+            font-weight: bold;
+            font-size: 18px;
+            color: #fff;
+            border: 0;
+            outline: none;
+            background-color: #458FF6;
+            padding: 20px 40px;
+            border-radius: 55px;
+            cursor: pointer;
+            transition: all .1s;
+
+            &:hover {
+                transform: scale(0.98);
+            }
+        }
+    }
+}
