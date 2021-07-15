@@ -1,0 +1,24 @@
+.header {
+    padding: 56px 0;
+
+    &-wrapp {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+
+        &__link {
+            margin-left: 40px;
+            color: #1F1534;
+
+            &.active {
+                color: #000;
+
+            }
+        }
+    }
+}
